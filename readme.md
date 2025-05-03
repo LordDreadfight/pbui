@@ -1,0 +1,18 @@
+Todo list:
+
+
+-checkbox
+-item visibility (visible, hidden, collapsed)
+-display priority (combobox dropdown and item laying over each other)
+-semi complete code review
+-tooltip delay
+-iconbutton
+-radiobuttons
+-toggle switch
+-slider
+-tableviews
+-messagebox
+-progressbar
+
+
+Tutorial on how to use:
