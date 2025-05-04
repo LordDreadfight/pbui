@@ -4,7 +4,7 @@
 
 TextInput::TextInput(short int x, short int y, unsigned short int width, unsigned short int height)
     : x(x), y(y), width(width), height(height), text(""), isFocused(false), caretPos(0), selectionStart(-1), selectionEnd(-1), showCaret(true), lastBlinkTime(SDL_GetTicks()) {
-    font = TTF_OpenFont("Ubuntu-Regular.ttf", 14);
+    font = TTF_OpenFont("Roboto-Regular.ttf", 14);
     if (!font) {
         std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;
     }

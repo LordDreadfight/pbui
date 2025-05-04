@@ -5,7 +5,7 @@ Combobox::Combobox(short int x, short int y, unsigned short int width, unsigned 
     : x(x), y(y), width(width), height(height), options(options), selectedIndex(0), isOpen(false), font(nullptr)
 {
     // Load the font
-    font = TTF_OpenFont("Ubuntu-Regular.ttf", 14);
+    font = TTF_OpenFont("Roboto-Regular.ttf", 14);
     if (!font)
     {
         std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;

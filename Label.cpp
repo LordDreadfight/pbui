@@ -4,7 +4,7 @@
 Label::Label(short int x, short int y, unsigned short int width, unsigned short int height, const std::string &text)
     : x(x), y(y), width(width), height(height), text(text)
 {
-    font = TTF_OpenFont("Ubuntu-Regular.ttf", 14);
+    font = TTF_OpenFont("Roboto-Regular.ttf", 14);
     if (!font)
     {
         std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;

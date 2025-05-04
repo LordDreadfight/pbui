@@ -5,7 +5,7 @@ Button::Button(short int x, short int y, unsigned short int width, unsigned shor
     : x(x), y(y), width(width), height(height), text(text), isHovered(false), hoverStartTime(0), showTooltip(false)
 {
     onClick = []() {};
-    font = TTF_OpenFont("Ubuntu-Regular.ttf", 14);
+    font = TTF_OpenFont("Roboto-Regular.ttf", 14);
     if (!font) {
         std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;
     }

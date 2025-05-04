@@ -3,7 +3,7 @@
 
 ListView::ListView(short int x, short int y, unsigned short int width, unsigned short int height, unsigned short int itemHeight)
     : x(x), y(y), width(width), height(height), itemHeight(itemHeight), selectedIndex(-1), scrollOffset(0), isFocused(false) {
-    font = TTF_OpenFont("Ubuntu-Regular.ttf", 14);
+    font = TTF_OpenFont("Roboto-Regular.ttf", 14);
     if (!font) {
         std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;
     }

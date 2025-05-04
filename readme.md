@@ -13,6 +13,7 @@ Todo list:
 -tableviews
 -messagebox
 -progressbar
+-listview.additems (currently only additem available)
 
 
 Tutorial on how to use:
