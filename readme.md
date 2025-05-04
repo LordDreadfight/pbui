@@ -1,6 +1,5 @@
 Todo list:
 
-
 -checkbox
 -item visibility (visible, hidden, collapsed)
 -display priority (combobox dropdown and item laying over each other)
@@ -14,7 +13,7 @@ Todo list:
 -messagebox
 -progressbar
 -listview.additems (currently only additem available)
-
+-resolution issues with libsdl2?
 
 Tutorial on how to use:
 This project uses libsdl2, because of licensing reasons with libsdl3, but the main reason is that i didn't get libsdl3 to work within an afternoon
